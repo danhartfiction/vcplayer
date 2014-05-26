@@ -28,7 +28,7 @@ import javafx.stage.WindowEvent;
  *
  * @author dhart
  */
-public class TestApp extends Application {
+public class VideoClipPlayer extends Application {
     
     protected StackPane root;
     protected Scene scene;
@@ -61,15 +61,6 @@ public class TestApp extends Application {
     
     @Override
     public void start(final Stage primaryStage) {
-    /*    Button btn = new Button();
-        btn.setText("Say 'Hello World'");
-        btn.setOnAction(new EventHandler<ActionEvent>() {
-            
-            @Override
-            public void handle(ActionEvent event) {
-                System.out.println("Hello World!");
-            }
-        });  */
         
         this.root = new StackPane();
         this.scene = new Scene(root, 800, 500);
